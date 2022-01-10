@@ -2,6 +2,21 @@
 
 
 //TC O(N)
+
+/*
+sum=carry+c1+c2
+sum can have 0,1,2,3
+sum>1 gives carry=1;
+when sum is odd, sum is kept 1
+else sum 0 in result
+
+    s    c
+0+0=0    0    
+1+1=0    1    
+1+0=1    0
+
+
+*/
 class Solution {
 public:
     //Two Pointer Approach
